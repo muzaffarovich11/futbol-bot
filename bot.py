@@ -163,7 +163,7 @@ async def album_handler(event):
 
 async def main():
     print("Bot started... Listening to @" + SOURCE)
-    await client.start()
+    await client.start(bot_token="7956754958:AAHRhXnkuVEJWd-6fsS5qkfAaaLMvUh_1NY")
     print("Successfully connected!")
     await client.run_until_disconnected()
 
